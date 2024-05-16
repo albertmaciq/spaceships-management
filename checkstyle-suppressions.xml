@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC
+  "-//Checkstyle//DTD SuppressionFilter Configuration 1.2//EN"
+  "https://checkstyle.org/dtds/suppressions_1_2.dtd">
+
+<suppressions>
+  <!-- To omit white space in empty methods -->
+  <suppress checks="WhitespaceAround" files=".*Repository.java"/>
+  <!-- To omit javadoc -->
+  <suppress checks="Javadoc" files="."/>
+  <suppress checks="DesignForExtension" files="."/>
+  <!-- To omit constant name pattern -->
+  <suppress checks="ConstantName" files="."/>
+  <!-- To omit LineLength in specific classes-->
+  <suppress checks="LineLength" files="LoggingHandlerAspect.java"/>
+</suppressions>

@@ -1,0 +1,6 @@
+ __        ______  __  __
+ \ \      / /___ \|  \/  |
+  \ \ /\ / /  __) | |\/| |
+   \ V  V /  / __/| |  | |
+    \_/\_/  |_____|_|  |_|
+${AnsiColor.GREEN} Powered by Spring Boot ${spring-boot.version} ${AnsiColor.DEFAULT} | ${AnsiColor.CYAN} Java ${app.java.version}${AnsiColor.DEFAULT}  v${info.app.version}
